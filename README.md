@@ -9,7 +9,7 @@ Users can sign up and log in through email or Facebook and receive confirmation 
 ## Heroku & Screenshots
 ###[Dinnr](http://dinnr.herokuapp.com)
 <div align="center">
-  <img width="90%" src="app/assets/images/dinnr-top.png">
+  <img width="90%" src="assets/images/dinnr-top.png">
 </div>
 <div align="center">
   <img width="90%" src="public/img/orange-thermo.png">
