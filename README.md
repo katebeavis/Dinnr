@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/gpa.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
 [![Test Coverage](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/coverage.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
 # Dinnr
-Dinnr was built as a two week final project at Makers Academy. It is a social app for organising dinner parties with friends and strangers, similar to Airbnb.
+Dinnr was built as a two week final project at Makers Academy. It is a social app for organising dinner parties with friends and strangers, similar to Airbnb. It is built with Ruby and Rails.
 
 Users can sign up and log in through email or Facebook and receive confirmation emails. They are able to create events, join and leave events, leave comments and reviews.
 
