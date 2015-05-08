@@ -1,8 +1,6 @@
 [![Build Status](https://travis-ci.org/Dinnr-Makers/Dinnr.svg?branch=master)](https://travis-ci.org/Dinnr-Makers/Dinnr)
 [![Code Climate](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/gpa.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
 [![Test Coverage](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/coverage.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
-<<<<<<< HEAD
-
 # Dinnr
 Dinnr was built as a two week final project at Makers Academy. It is a social app for organising dinner parties with friends and strangers, similar to Airbnb.
 
@@ -11,17 +9,16 @@ Users can sign up and log in through email or Facebook and receive confirmation 
 ## Heroku & Screenshots
 ###[Dinnr](http://dinnr.herokuapp.com)
 <div align="center">
-  <img width="90%" src="assets/images/dinnr-top.png">
+  <img width="90%" src="app/assets/images/dinnr-top.png">
 </div>
 <div align="center">
-  <img width="90%" src="public/img/orange-thermo.png">
+  <img width="90%" src="app/assets/images/dinnr-mid.png">
 </div>
-<div align="center">
-  <img width="90%" src="public/img/orange-thermo.png">
+<div>
+  <img width="45%" src="app/assets/images/dinnr-topevent.png">
+  <img width="45%" src="app/assets/images/dinnr-midevent.png">
 </div>
-<div align="center">
-  <img width="90%" src="public/img/orange-thermo.png">
-</div>
+
 
 ## Objectives
 We wanted to create an app to bring people together - one of the members of our team had moved to London a few months beforehand, and he wanted a site where he could organise a dinner party at his house in order to meet new people.
