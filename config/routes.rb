@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'events#index'
 
-  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks", registrations: 'registrations' }
+  devise_for :users, controllers: { omniauth_callbacks: 'users/omniauth_callbacks', registrations: 'registrations' }
 
   get 'events' => 'events#index'
   get 'pictures' => 'pictures#index'
@@ -11,12 +11,12 @@ Rails.application.routes.draw do
     resources :reviews
     resources :bookings do
       collection do
-        get "leave"
+        get 'leave'
       end
     end
     resource :pictures do
       collection do
-        get "library"
+        get 'library'
       end
     end
   end
@@ -27,15 +27,14 @@ Rails.application.routes.draw do
 
   resources :eventpictures
 
-  namespace :api, :defaults => {:format => :json} do
+  namespace :api, defaults: { format: :json } do
     namespace :v1 do
       resources :events do
-        get 'map' => 'map#index', :on => :collection
+        get 'map' => 'map#index', on: :collection
         get 'map' => 'map#show'
       end
     end
   end
 
-  resources :comments, :only => [:create, :destroy]
-
+  resources :comments, only: [:create, :destroy]
 end

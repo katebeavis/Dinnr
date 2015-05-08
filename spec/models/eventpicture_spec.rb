@@ -6,9 +6,8 @@ describe Eventpicture, type: :model do
   it { is_expected.to belong_to :picture }
 
   it 'no longer exists when removed' do
-    eventpicture = Eventpicture.new
+    eventpicture = described_class.new
     eventpicture.destroy
     expect(eventpicture.destroyed?).to be true
   end
-
 end

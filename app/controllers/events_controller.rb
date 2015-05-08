@@ -1,6 +1,5 @@
 class EventsController < ApplicationController
-
-  before_action :authenticate_user!, :except => [:index, :show, :map]
+  before_action :authenticate_user!, except: [:index, :show, :map]
   include EventsHelper
 
   def index
@@ -51,5 +50,4 @@ class EventsController < ApplicationController
       redirect_to '/events'
     end
   end
-
 end

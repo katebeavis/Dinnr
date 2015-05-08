@@ -1,5 +1,4 @@
 class ReviewsController < ApplicationController
-
   def new
     @event = Event.find(params[:event_id])
     @review = Review.new
@@ -20,7 +19,7 @@ class ReviewsController < ApplicationController
 
   def edit
     @event = Event.find(params[:event_id])
-    event_reviews = Review.all.select{|review|review.event_id == @event.id}.select{|review|review.user_id == current_user.id}
+    event_reviews = Review.all.select { |review| review.event_id == @event.id }.select { |review| review.user_id == current_user.id}
     @review = event_reviews.first
   end
 

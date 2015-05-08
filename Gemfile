@@ -27,8 +27,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-#Front-end dependencies
-gem "bower"
+# Front-end dependencies
+gem 'bower'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -66,23 +66,17 @@ group :development, :test, :development_windows do
 
   # When running on windows machines:
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-  
 end
 
-
-   
-
-
 group :test do
-
   gem 'simplecov', :require => false
-  gem "codeclimate-test-reporter", require: nil
+  gem 'codeclimate-test-reporter', require: nil
   gem 'rspec-rails'
   gem 'capybara'
   gem 'rspec-collection_matchers'
   gem 'shoulda'
   gem 'launchy'
   gem 'rack-test'
-  gem "test-unit"
-  gem "selenium-webdriver"
+  gem 'test-unit'
+  gem 'selenium-webdriver'
 end

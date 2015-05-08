@@ -4,7 +4,7 @@ require 'spec_helper'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rspec/rails'
 require 'capybara'
-require "rack/test"
+require 'rack/test'
 
 # Add additional requires below this line. Rails is not loaded until this point!
 

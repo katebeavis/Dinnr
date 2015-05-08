@@ -11,7 +11,7 @@ describe Event, type: :model do
   let(:chris) { double :user }
   let(:thomas) { double :user }
   let(:sean) { double :user }
-  let(:party) { Event.new }
+  let(:party) { described_class.new }
   let(:add_guest) { party.add_guest(kate) }
 
   it 'is able to add a user to an event' do
@@ -34,7 +34,7 @@ describe Event, type: :model do
 
   it 'is able to set its size on creation' do
     options = { :size => 3 }
-    party = Event.new(options)
+    party = described_class.new(options)
     expect(party.size).to eq 3
   end
 

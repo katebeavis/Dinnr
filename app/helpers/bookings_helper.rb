@@ -24,4 +24,3 @@ module BookingsHelper
     full_event_error if @bookings.count == @event.size
   end
 end
-
