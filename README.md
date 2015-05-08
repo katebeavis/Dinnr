@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/gpa.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
 [![Test Coverage](https://codeclimate.com/github/Dinnr-Makers/Dinnr/badges/coverage.svg)](https://codeclimate.com/github/Dinnr-Makers/Dinnr)
 # Dinnr
-Dinnr was built as a two week final project at Makers Academy. It is a social app for organising dinner parties with friends and strangers, similar to Airbnb.
+Dinnr was built as a two week final project at Makers Academy. It is a social app for organising dinner parties with friends and strangers, similar to Airbnb. It is built with Ruby on Rails.
 
 Users can sign up and log in through email or Facebook and receive confirmation emails. They are able to create events, join and leave events, leave comments and reviews.
 
@@ -14,7 +14,7 @@ Users can sign up and log in through email or Facebook and receive confirmation 
 <div align="center">
   <img width="90%" src="app/assets/images/dinnr-mid.png">
 </div>
-<div>
+<div aligh="center">
   <img width="45%" src="app/assets/images/dinnr-topevent.png">
   <img width="45%" src="app/assets/images/dinnr-midevent.png">
 </div>
@@ -22,6 +22,18 @@ Users can sign up and log in through email or Facebook and receive confirmation 
 
 ## Objectives
 We wanted to create an app to bring people together - one of the members of our team had moved to London a few months beforehand, and he wanted a site where he could organise a dinner party at his house in order to meet new people.
+
+## Technologies
+- Ruby
+- Rails
+- Javascript
+- Google Maps api & Geocoder
+- Factory Girl
+- Materialize
+- Omniauth & Devise
+- Paperclip & Image Magick
+- HTML
+- CSS
 
 ## Todo
 ##### Payment System
