@@ -14,14 +14,26 @@ Users can sign up and log in through email or Facebook and receive confirmation 
 <div align="center">
   <img width="90%" src="app/assets/images/dinnr-mid.png">
 </div>
-<div>
-  <img width="50%" src="app/assets/images/dinnr-topevent.png">
-  <img width="50%" src="app/assets/images/dinnr-midevent.png">
+<div aligh="center">
+  <img width="45%" src="app/assets/images/dinnr-topevent.png">
+  <img width="45%" src="app/assets/images/dinnr-midevent.png">
 </div>
 
 
 ## Objectives
 We wanted to create an app to bring people together - one of the members of our team had moved to London a few months beforehand, and he wanted a site where he could organise a dinner party at his house in order to meet new people.
+
+## Technologies
+- Ruby
+- Rails
+- Javascript
+- Google Maps api & Geocoder
+- Factory Girl
+- Materialize
+- Omniauth & Devise
+- Paperclip & Image Magick
+- HTML
+- CSS
 
 ## Todo
 ##### Payment System
