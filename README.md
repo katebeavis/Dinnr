@@ -12,13 +12,13 @@ Users can sign up and log in through email or Facebook and receive confirmation 
   <img width="90%" src="app/assets/images/dinnr-top.png">
 </div>
 <div align="center">
-  <img width="45%" src="app/assets/images/dinnr-mid.png">
+  <img width="90%" src="app/assets/images/dinnr-mid.png">
 </div>
 <div align="center">
-  <img width="45%" src="app/assets/images/dinnr-topevent.png">
+  <img width="60%" src="app/assets/images/dinnr-topevent.png">
 </div>
 <div align="center">
-  <img width="45%" src="app/assets/images/dinnr-midevent.png">
+  <img width="60%" src="app/assets/images/dinnr-midevent.png">
 </div>
 
 ## Objectives
