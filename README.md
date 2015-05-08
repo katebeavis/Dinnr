@@ -15,8 +15,8 @@ Users can sign up and log in through email or Facebook and receive confirmation 
   <img width="90%" src="app/assets/images/dinnr-mid.png">
 </div>
 <div>
-  <img width="45%" src="app/assets/images/dinnr-topevent.png">
-  <img width="45%" src="app/assets/images/dinnr-midevent.png">
+  <img width="50%" src="app/assets/images/dinnr-topevent.png">
+  <img width="50%" src="app/assets/images/dinnr-midevent.png">
 </div>
 
 
