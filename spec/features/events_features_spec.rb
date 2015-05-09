@@ -60,7 +60,7 @@ feature 'events' do
     it "shows a user's avatar as a thumbnail if they have joined the event" do
       john = create(:user, email: 'john@doe.com', password: 'testtest', password_confirmation: 'testtest')
       party = create(:event, user: john, title: "John's Party")
-      kate = create(:user, email: 'kate@test.com', password: 'testtest', password_confirmation: 'testtest')
+      create(:user, email: 'kate@test.com', password: 'testtest', password_confirmation: 'testtest')
       visit '/'
       click_link('Sign in', match: :prefer_exact)
       fill_in 'Email', with: 'kate@test.com'
@@ -134,7 +134,7 @@ feature 'events' do
     end
 
     scenario 'user can not add an image to an event if they have no images uploaded' do
-      user = create(:user)
+      create(:user)
       sign_in
       create_event
       visit '/'

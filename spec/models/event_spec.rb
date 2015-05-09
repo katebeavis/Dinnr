@@ -33,7 +33,7 @@ describe Event, type: :model do
   end
 
   it 'is able to set its size on creation' do
-    options = { :size => 3 }
+    options = { size: 3 }
     party = described_class.new(options)
     expect(party.size).to eq 3
   end

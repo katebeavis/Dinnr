@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :event, :class => 'Event' do
+  factory :event, class: 'Event' do
     title 'Pauls Birthday Party'
     description "Party for Paul's 21. birthday"
     location '22 Sancroft Street, London, United Kingdom'

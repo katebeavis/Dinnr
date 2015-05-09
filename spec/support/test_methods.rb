@@ -108,11 +108,11 @@ def makers_drinks
 end
 
 def create_user_john
-  john = create(:user,
-                id: 3,
-                email: 'john@doe.com',
-                password: 'testtest',
-                password_confirmation: 'testtest')
+  create(:user,
+          id: 3,
+          email: 'john@doe.com',
+          password: 'testtest',
+          password_confirmation: 'testtest')
 end
 
 def feedback

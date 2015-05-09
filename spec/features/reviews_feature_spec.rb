@@ -2,7 +2,7 @@ require 'rails_helper'
 
 feature 'reviewing' do
   scenario 'does not allow reviews before an event has happened' do
-    party = create(:event)
+    create(:event)
     visit '/events'
     click_link 'Pauls Birthday Party'
     expect(page).not_to have_link 'Review'
@@ -22,7 +22,7 @@ feature 'reviewing' do
   scenario 'does not let a non guest to leave a review' do
     makers_drinks
     makers_drinks.save(validate: false)
-    dave = create(:user, id: 7)
+    create(:user, id: 7)
     visit '/events'
     click_link 'Makers Welcome Drinks'
     expect(page).not_to have_link 'Review'

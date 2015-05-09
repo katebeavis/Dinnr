@@ -23,7 +23,7 @@ require 'rack/test'
 #
 Dir[Rails.root.join('spec/support/*.rb')].each { |f| require f }
 
-Geocoder.configure(:lookup => :test)
+Geocoder.configure(lookup: :test)
 
 Geocoder::Lookup::Test.set_default_stub(
   [
@@ -39,10 +39,10 @@ Geocoder::Lookup::Test.set_default_stub(
   ]
 )
 
-Geocoder.configure(:lookup => :test)
+Geocoder.configure(lookup: :test)
 
 Geocoder::Lookup::Test.add_stub(
-  "55, Nilstreet, Niltown, nil, NilCountry", [
+  '55, Nilstreet, Niltown, nil, NilCountry', [
     {
       'latitude'     => nil,
       'longitude'    => nil,
@@ -66,12 +66,7 @@ ActiveRecord::ConnectionAdapters::ConnectionPool.class_eval do
   end
 end
 
-
 RSpec.configure do |config|
-  # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
-  #config.fixture_path = "#{::Rails.root}/spec/fixtures"
-
-  #Factory Girl
   config.include FactoryGirl::Syntax::Methods
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false

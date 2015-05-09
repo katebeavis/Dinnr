@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'API', :type => :request do
+describe 'API', type: :request do
   let!(:geocoded_event) { create(:event) }
   let!(:nice_pic) { create(:picture) }
   let!(:event_pic) { create(:eventpicture, event_id: geocoded_event.id, picture_id: nice_pic.id) }
